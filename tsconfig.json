@@ -3,7 +3,8 @@
     "declaration": true,
     "baseUrl": ".",
     "types": [
-      "node"
+      "node",
+      "core-js"
     ],
     "target": "es5",
     "module": "commonjs",

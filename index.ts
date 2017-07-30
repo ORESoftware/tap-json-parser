@@ -1,9 +1,12 @@
+'use strict';
 
 import * as stream from 'stream';
 
 export interface IParsedObject {
   [index: string]: any
 }
+
+//////////////////////////////////////////////////
 
 export default function () {
 
@@ -13,7 +16,7 @@ export default function () {
 
     objectMode: true,
 
-    transform(chunk, encoding, cb) {
+    transform(chunk: any, encoding: string, cb: Function) {
 
       let data = String(chunk);
       if (lastLineData) {
@@ -36,7 +39,7 @@ export default function () {
 
     },
 
-    flush(cb) {
+    flush(cb: Function) {
       if (lastLineData) {
         try {
           this.push(JSON.parse(lastLineData));

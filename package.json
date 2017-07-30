@@ -3,6 +3,8 @@
   "version": "0.0.1001",
   "description": "Parser TAP in JSON format",
   "main": "index.js",
+  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "suman"
   },
