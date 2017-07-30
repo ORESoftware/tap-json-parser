@@ -28,7 +28,8 @@ export default function () {
 
       lines.forEach(l => {
         try {
-          this.push(JSON.parse(l));
+          // l might be an empty string; ignore if so
+          l && this.push(JSON.parse(l));
         }
         catch (err) {
           // noop

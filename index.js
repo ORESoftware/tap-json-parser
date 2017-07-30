@@ -15,7 +15,7 @@ function default_1() {
             lastLineData = lines.splice(lines.length - 1, 1)[0];
             lines.forEach(function (l) {
                 try {
-                    _this.push(JSON.parse(l));
+                    l && _this.push(JSON.parse(l));
                 }
                 catch (err) {
                 }
