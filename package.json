@@ -1,0 +1,32 @@
+{
+  "name": "tap-json-parser",
+  "version": "0.0.1001",
+  "description": "Parser TAP in JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/tap-json-parser.git"
+  },
+  "keywords": [
+    "test",
+    "tap",
+    "test",
+    "anything",
+    "protocol",
+    "tapjs",
+    "json"
+  ],
+  "author": "Olegzandr VD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/tap-json-parser/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/tap-json-parser#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.42",
+    "@types/node": "^8.0.17"
+  }
+}
