@@ -1,9 +1,11 @@
 node_modules
 .idea
+test
 *.json
 *.txt
 *.sh
 *.md
 *.log
 *.ts
+suman.conf.js
 !*.d.ts

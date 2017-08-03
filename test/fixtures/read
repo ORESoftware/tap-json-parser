@@ -1,0 +1,48 @@
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":true}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":true}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}
+true
+bunny
+dog
+[object Object]
+{"foo":"bar"}
+{"@tap-json":"bar"}

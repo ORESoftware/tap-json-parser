@@ -29,6 +29,8 @@
   "homepage": "https://github.com/ORESoftware/tap-json-parser#readme",
   "devDependencies": {
     "@types/core-js": "^0.9.42",
-    "@types/node": "^8.0.17"
+    "@types/node": "^8.0.17",
+    "async": "^2.5.0",
+    "suman": "^1.1.512239"
   }
 }
