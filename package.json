@@ -6,7 +6,7 @@
   "typings": "index.d.ts",
   "types": "index.d.ts",
   "scripts": {
-    "test": "suman"
+    "test": "suman test/e2e/*"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,6 @@
   "devDependencies": {
     "@types/core-js": "^0.9.42",
     "@types/node": "^8.0.17",
-    "async": "^2.5.0",
-    "suman": "^1.1.512239"
+    "async": "^2.5.0"
   }
 }

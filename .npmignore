@@ -1,11 +1,22 @@
+
+# directories
 node_modules
 .idea
 test
+
+# matching files
 *.json
 *.txt
 *.sh
 *.md
 *.log
 *.ts
+
+# individual files
 suman.conf.js
+.gitignore
+.npmignore
+.editorconfig
+
+# negation
 !*.d.ts
