@@ -1,10 +1,10 @@
 
-# directories
+#### folders
 node_modules
 .idea
 test
 
-# matching files
+### matching files
 *.json
 *.txt
 *.sh
@@ -12,11 +12,11 @@ test
 *.log
 *.ts
 
-# individual files
+#### files
 suman.conf.js
 .gitignore
 .npmignore
 .editorconfig
 
-# negation
+### negation
 !*.d.ts
