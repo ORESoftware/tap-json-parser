@@ -3,4 +3,5 @@ import * as stream from 'stream';
 export interface IParsedObject {
     [index: string]: any;
 }
-export default function (): stream.Transform;
+export declare const createParser: () => stream.Transform;
+export default createParser;

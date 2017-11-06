@@ -2,13 +2,16 @@
 
 import * as stream from 'stream';
 
+//////////////////////////////////////////////////
+
+
 export interface IParsedObject {
   [index: string]: any
 }
 
 //////////////////////////////////////////////////
 
-export default function () {
+export const createParser =  function () {
 
   let lastLineData = '';
 
@@ -62,6 +65,7 @@ export default function () {
 
   return strm;
 
-}
+};
 
+export default createParser;
 

@@ -3,6 +3,7 @@
 node_modules
 .idea
 test
+scripts
 
 ### matching files
 *.json
@@ -11,6 +12,7 @@ test
 *.md
 *.log
 *.ts
+*.yml
 
 #### files
 suman.conf.js

@@ -1,7 +1,7 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
 var stream = require("stream");
-function default_1() {
+exports.createParser = function () {
     var lastLineData = '';
     var strm = new stream.Transform({
         objectMode: true,
@@ -40,5 +40,5 @@ function default_1() {
         }
     });
     return strm;
-}
-exports.default = default_1;
+};
+exports.default = exports.createParser;
