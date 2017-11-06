@@ -1,6 +1,6 @@
 {
   "name": "tap-json-parser",
-  "version": "0.0.1004",
+  "version": "0.0.1005",
   "description": "Parser TAP in JSON format",
   "main": "index.js",
   "typings": "index.d.ts",
