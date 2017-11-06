@@ -2,6 +2,9 @@
 ### folders
 .idea
 node_modules
+coverage
+.vscode
+.vs_code
 
 ### files
 package-lock.json
@@ -9,8 +12,6 @@ yarn.lock
 
 ### matching
 *.log
-
-
 
 
 
