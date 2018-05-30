@@ -2,9 +2,9 @@
   "name": "tap-json-parser",
   "version": "0.0.1006",
   "description": "Parser TAP in JSON format",
-  "main": "index.js",
-  "typings": "index.d.ts",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "suman test/e2e/*"
   },
@@ -22,7 +22,7 @@
     "json"
   ],
   "author": "Olegzandr VD",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ORESoftware/tap-json-parser/issues"
   },
