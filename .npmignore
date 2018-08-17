@@ -3,6 +3,7 @@
 node_modules
 .idea
 test
+src
 scripts
 
 ### matching files
@@ -11,7 +12,6 @@ scripts
 *.sh
 *.md
 *.log
-*.ts
 *.yml
 
 #### files
@@ -20,6 +20,4 @@ suman.conf.js
 .npmignore
 .editorconfig
 yarn.lock
-
-### negation
-!*.d.ts
+Dockerfile*

@@ -4,7 +4,7 @@
 node_modules
 coverage
 .vscode
-.vs_code
+dist/*
 
 ### files
 package-lock.json
@@ -12,6 +12,9 @@ yarn.lock
 
 ### matching
 *.log
+
+### negation
+!dist/readme.md
 
 
 
