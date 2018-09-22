@@ -1,6 +1,6 @@
 {
   "name": "tap-json-parser",
-  "version": "0.0.1007",
+  "version": "0.0.1008",
   "description": "Parser TAP in JSON format",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,5 +31,8 @@
     "@types/core-js": "^0.9.42",
     "@types/node": "^8.0.17",
     "async": "^2.5.0"
+  },
+  "dependencies": {
+    "@oresoftware/json-stream-parser": "0.0.1003"
   }
 }
