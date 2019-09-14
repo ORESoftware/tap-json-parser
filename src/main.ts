@@ -3,13 +3,13 @@
 import * as stream from 'stream';
 import {JSONParser} from '@oresoftware/json-stream-parser';
 
-//////////////////////////////////////////////////
-
 export interface IParsedObject {
   [index: string]: any
 }
 
-//////////////////////////////////////////////////
+export const r2gSmokeTest = () => {
+  return true;
+};
 
 export const createParser = () => {
   
